@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice 2</title>
+    <style>
+        html{
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Sample Registration Form</u></h1>
+    <p><strong>Personal Details</strong></p>
+    <form action="backend.php">
+        <div>
+            <span>
+                <label for="FullName">Full Name</label>
+                <input type="text" name="fullname" id="FullName" placeholder="Enter your name">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="FatherName">Father Name</label>
+                <input type="text" name="fathername" id="FatherName" placeholder="Enter father name">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="MotherName">Mother Name</label>
+                <input type="text" name="mothername" id="MotherName" placeholder="Enter mother name">
+            </span>
+        </div>
+        <br>
+        <div>
+            <span>
+                <label for="DateofBirth">Date of Birth</label>
+                <input type="date" name="birthdate" id="DateofBirth" placeholder="Enter your DOB">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="IdentificationNumber">Aadhaar Number</label>
+                <input type="number" id="IdentificationNumber">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="emailid">Email</label>
+                <input type="email" name="myEmail" id="emailid" required autocomplete="off" placeholder="Enter your email">
+            </span>
+        </div>
+        <br>
+           <span>
+            <label for="mobileNumber">Mobile</label>
+            <input type="number" id="mobileNumber">
+           </span> &nbsp; &nbsp;
+           <span>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="myGender">Male <input type="radio" name="myGender">Female
+           </span> &nbsp; &nbsp;
+           <span>
+            <label for="Address">Address</label>
+            <input type="text" name="myAddress" id="Address">
+           </span>
+        </div>
+        <br>
+        <br>
+        <fieldset>
+        <legend><strong>Other details</strong></legend>
+        <div>
+            <span>
+                <label for="stream">stream</label>
+                <input type="text" name="myStream" placeholder="Enter your Stream" id="stream">
+            </span> &nbsp;&nbsp;
+            <span>
+                <label for="Hobbies">Hobbies</label>
+                <input type="text" name="myHobbies" placeholder="List out your hobbies" id="Hobbies">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="nationality">Nationality</label>
+                <select name="myNationality" id="nationality">
+                    <option value="Indian">Indian</option>
+                    <option value="American">American</option>
+                    <option value="Korean">Korean</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Pakistani">Pakistani</option>
+                    <option value="Australian">Australian</option>
+                    <option value="Other">Other</option>
+                </select>
+            </span>
+        </div>
+        <br>
+        <div>
+            <span>
+            <label for="Category">Category</label>
+            <input type="text" name="myCategory" id="Category"  placeholder="Enter your Category">
+            </span> &nbsp; &nbsp;
+            <span>
+                <label for="Studied Upto">Studied</label>
+                <input type="text" name="myStudies" id="Studied Upto" list="Studied">
+                <datalist id="Studied">
+                    <option value="Graduate">Graduate</option>
+                    <option value="Undergrad">Undergrad</option>
+                    <option value="12th">12th</option>
+                    <option value="SSC">SSC</option>
+                </datalist>
+            </span>
+        </div>
+        </fieldset> 
+        <br>
+        <div>
+            Any queries?  <br> <textarea name="myTextarea" cols="20" rows="6" placeholder="Tell us here..."></textarea>
+            <!--Textarea is an element provided to you by HTML to take take big paragraphs of inputs from users-->
+         </div>
+         <br>
+        <span>
+        <button>Register Now</button>
+        </span> &nbsp; &nbsp;
+        <span>
+            <button>Reset Form</button>
+        </span>
+    </form>
+</body>
+</html>

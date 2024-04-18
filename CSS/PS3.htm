@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS 3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 60px;
+            background: black;
+            color: white;
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 3px;
+        }
+        .content{
+            background: rgb(7, 234, 7);
+            height: 80vh;
+            padding: 3px;
+            border: 3px solid black;
+            margin: 34px;
+            box-sizing: border-box;
+        }
+        footer{
+            background: rebeccapurple;
+            color: antiquewhite;
+            padding: 2px;
+            border: 3px solid black;
+            margin: 25px;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Q1. Create a website layout and add a header box, content box, footer -->
+    <!-- Q2. Add borders and margins to Q1 -->
+    <!-- Q3. Did the margin collapse between content box and footer -->
+    <!-- Ans : Yes, the margin between content and footer has collapsed. -->
+    <!-- Q4. Add the box-sizing property to content box. What changes did you notice -->
+    <!-- Ans : No, applying content boxas box-sizing property there will will be no changes because by default the value of box-sizing is content box -->
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, recusandae nam? Tempora veniam aliquam veritatis corporis soluta vel delectus doloribus cum, nemo expedita quam ipsam officiis! Libero aperiam autem excepturi recusandae accusamus laboriosam magnam.
+    </div>
+    <footer>
+        <p class="center">Copyright &copy; Mywebsite007</p>
+    </footer>
+</body>
+</html>

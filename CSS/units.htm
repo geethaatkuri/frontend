@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        .container{
+            /* font-size: 34px; */
+        }
+        .box{
+            /* font-size: 12px; */
+            /* font-size: 3em; */
+            /* em means parent font size multiplied by given em font size: 34px will be multiplied by 3 i.e., 102 */
+            background-color: red;
+        }
+        .box2{
+            background-color: aqua;
+            width: 334px;
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is a paragraph</p>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi alias reprehenderit debitis quae illo ullam aliquam, dolorum molestiae accusantium cum. Quia dolorum animi repellat praesentium itaque numquam, nostrum pariatur est deserunt magnam voluptates unde.
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dignissimos minima animi!
+    </div>
+    </div>
+</body>
+</html>
+<!-- em unit means it is relative to the parent font size -->
+<!-- rem unit means it is relative to the root font size (<html> tag) -->
+<!-- vw unit means it is relative to the 1% viewport width -->
+<!-- vh unit means it is relative to the 1% viewport height -->
+<!-- % unit relative to the parent element -->

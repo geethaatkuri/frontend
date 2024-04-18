@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice 1</title>
+    <style>
+        html{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Registration Form</h1>
+    <form action="backend.php">
+        <div>
+        <label for="email">Email : </label>
+        <input type="email" name="myEmail" id="email" required autocomplete="off" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="password"> Password :</label>
+            <input type="password" name="myPassword" id="password" placeholder="Type your password">
+        </div>
+        <br>
+        <div>
+            <label for="re-type password">Re-type Password :</label>
+            <input type="password" name="re-type" id="re-type password" placeholder="Re-type your password">
+        </div>
+        <br>
+        <div>
+            <span>
+                <label for="name">First Name : </label>
+                <input type="text" name="myFName" id="FirstName" placeholder="First Name">
+            </span> 
+            &nbsp; &nbsp;
+            <span>
+                <label for="name">Last Name : </label>
+                <input type="text" name="myLName" id="LastName" placeholder="Last Name">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender : </label>
+            <input type="radio" name="myGender">Male <input type="radio" name="myGender">Female
+        </div>
+        <br>
+        <div>
+            <label for="country"></label>
+            <input type="text" name="country" id="country" placeholder="Select a country" list="countries">
+            <datalist id="countries">
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Japan">Japan</option>
+                <option value="India">India</option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+           <input type="checkbox" name="T&C"> I agree with T&C.
+           <br>
+           <input type="checkbox" name="newsletter"> I want to receive newsletters.
+        </div>
+        <br>
+        <button style="background-color: blanchedalmond;">Register</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+Roadmap for Web Development
+
+RESOURCES TO LEARN HTML&CSS
+-->W3SCHOOLS & FREECODECAMP 
+-->Codedamn
+
+Projects you can do by learning HTML&CSS: 
+1. Landing page(basic like inserting images, links, paragraphs etc)
+2. Form builder
+3. Responsive website
+4. Simple portfolio (without any animations)
+
+
+Talking about JavaScript-- Learn basics like Loops, callback, promise, async & await, call APIs
+Resource---'Namaste JavaScript' playlist by 'Sahini sir'
+
+Projects you can do by learning JavaScript:
+1. Make Calculator
+2. TIC-TAC-TOE/snake game
+3. Meme/code generator
+4. Form validation
+5. To-do list
+
+Core Frontend- Which library and framework to learn so that we can match the industry standard?
+React/Angular/Vue/..... What to pick?
+Pick and learn 'React'- Widely used and have a lot of scope
+Resource--- React official documentation/website
+
+Projects you can do by learning React:
+1. Calculator
+2. Emoji search
+3. Snapshot
+4. BMI Calculator
+5. Image compressor
+6. Counter App
+7. Tutorial Solutions
+
+With this you are ready for Frontend Developer.
+
+----------------------------------------------------------------------------------------------------------------
+
+Backend- Pick Node.js and Express.js
+Resource--- Freecodecamp's full tutorial on node.js and express.js(In detail tutorial)
+            Programming with mosh node.js tutorial for beginners(Like summary tutorial)
+
+Now after learning node.js and express.js start playing with Curd operation(Create, Update, Read, Delete)
+For CURD Opration- Resources--- 'Freecodecamp' Node.js/Express Course- Build 4 Projects.
+Projects covered in this tutorial:
+1. Task Manager
+2. Store API
+3. JWT Basics
+4. Jobs API
+-----------------------------------------------------------------------------------------------------------------
+
+Database- Picking MangoDB
+
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+Web application Projects: Knowledge in MERN/MEAN/MEVN, PostgreSQL(if you want to use actual SQL database)  
+
+--> Frontend code editor 
+    Resources---(Watch 'web dev simplified' video-how to build codepen with react) *** FOR REFERENCE BUT DO NOT COPY.
+
+--> Video streaming platform (like youtube)- Functionality like whenever hovering on any video the video pops out and starts playing.
+    Resources---1. (Watch 'Clever Programmer' video- Let's build a youtube clone with React JS for Beginners)*** FOR REFERENCE BUT DO NOT COPY.
+                2. (Watch 'Backbench Coder' video- Fully functional youtube clone)
+
+--> Interactive Portfolio- Example portfolios: Prateek Narang, Jack web developer
+    Also https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+
+    Resources---1. (Watch 'Clever Programmer' video- Let's build a modern portfolio with NextJS, TypeScript, SSr and React Bricks CMS)
+                2. (Watch 'Freecodecamp' video- Biuld a portfolio website with advanced animations)
+
+--> Social media clones applications- What will you learn? --- Authentication, how Realtime data changes reflect in application.
+    Resources---1. (Watch 'Clever Programmer' video- How to build instagram clone with React JS for beginners)
+                2. (Watch 'Freecodecamp' video- Create an instagram clone with React, Tailwind CSS, Firebase)
+
+-->Resume builder/Food ordering app 
+   Food ordering app resources--- (Watch 'Lama Dev' video- Food ordering app UI Design Using React Next.js|Responsive Restaurant website)
+
+-->https://www.codingnepalweb.com/text-speech-converter-html-css-javascript/

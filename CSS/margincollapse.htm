@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content1{
+            background: red;
+            margin: 30px;
+            height: 20px;
+            width: 233px;
+            border: 2px solid black;
+        }
+        .content2{
+            background: aqua;
+            margin: 20px;
+            height: 20px;
+            width: 100%;
+            padding: 2px;
+            border: 2px solid grey;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="content1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto nobis animi soluta praesentium natus exercitationem, quos dicta distinctio aperiam. Quis reprehenderit, animi veritatis nemo placeat dicta. Laborum assumenda magni sed voluptatum? Deserunt, praesentium.
+    </div>
+    <div class="content2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ratione fugiat enim saepe sed aperiam hic sapiente voluptate quos tempora praesentium ab culpa quibusdam error animi, voluptatum voluptas libero dolor blanditiis molestias veniam. Explicabo optio consequatur odit ab voluptatum dolorum neque delectus reprehenderit.
+    </div>
+
+    <!-- When two margins from different elements overlap, the equivalent margin is the greater of the two. This is called margin overlapping.     i.e., the margin between them is collapsed to the bigger margin. -->
+</body>
+</html>
