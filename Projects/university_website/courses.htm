@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.htm">
+                <img src="university_images/logo.png" alt="University_logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Courses</h1>
+    </section>
+
+    <!-- Courses -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, maiores.</p>
+        <div class="row">
+            <div class="course-column">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, aliquid veniam consequatur eveniet quasi doloremque ducimus debitis numquam deleniti itaque dolores ipsum eum adipisci modi? Officiis cupiditate corporis illo nobis.</p>
+            </div>
+            <div class="course-column">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, aliquid veniam consequatur eveniet quasi doloremque ducimus debitis numquam deleniti itaque dolores ipsum eum adipisci modi? Officiis cupiditate corporis illo nobis.</p>
+            </div>
+            <div class="course-column">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, aliquid veniam consequatur eveniet quasi doloremque ducimus debitis numquam deleniti itaque dolores ipsum eum adipisci modi? Officiis cupiditate corporis illo nobis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quam!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="university_images/library.png" alt="Library image">
+                <h3>Largest Library </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eaque itaque illum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="university_images/basketball.png" alt="Library image">
+                <h3>Largest playground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eaque itaque illum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="university_images/cafeteria.png" alt="Library image">
+                <h3>University's cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eaque itaque illum.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum dolores ad eligendi error deserunt earum provident, blanditiis, veritatis fugit voluptatibus id <br> quibusdam modi porro necessitatibus illum voluptas, similique debitis laborum adipisci hic aspernatur! Asperiores, nemo pariatur tempore suscipit saepe quas.</p>
+        <p>copyrights &copy; all rights reserved. | This website is made by the officials of University of Eduford</p>
+    </section>
+
+
+    <!-- JvaScript for toggle menu -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+</body>
+</html>

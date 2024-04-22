@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.htm">
+                <img src="university_images/logo.png" alt="University_logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="about.htm">ABOUT</a></li>
+                    <li><a href="courses.htm">COURSE</a></li>
+                    <li><a href="blog.htm">BLOG</a></li>
+                    <li><a href="contact.htm">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for you.</h1>
+    </section>
+
+   <!-- Blog page content -->
+
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        <img src="university_images/certificate.jpg" alt="Blog page image">
+        <h2>Our Certificates & Online Programs for you.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat, cupiditate mollitia dicta porro voluptatum assumenda nobis nostrum quibusdam dignissimos deserunt blanditiis rem consequuntur vel voluptate eveniet unde harum est numquam corrupti consectetur adipisci ex autem provident. Quae, quaerat voluptate?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis eaque commodi fugiat. Molestiae reiciendis voluptatibus aliquam praesentium ipsa sed ipsum iste architecto culpa iusto, consequuntur provident reprehenderit esse itaque. Provident velit veritatis veniam possimus et quae labore. Tenetur debitis error pariatur suscipit doloremque distinctio maxime illum laboriosam molestiae nobis?</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolorem facere quaerat aliquid odio excepturi totam molestias consequatur omnis enim quam ut quisquam perspiciatis, saepe accusamus vel necessitatibus vitae consequuntur ex nisi, pariatur veritatis exercitationem, numquam suscipit! Tempore magnam, iusto cumque impedit hic harum accusantium, ipsum totam placeat libero dolores qui voluptatum? Consequatur quod molestiae error quae quas id tempore.</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi modi dolorum sequi nulla, nihil qui ducimus architecto neque harum quod illum, officia dolores laboriosam quibusdam odio porro necessitatibus quisquam iste.</p>
+        </div>
+
+        
+
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Mechanical Engineer</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Arts & Science</span>
+                <span>25</span>
+            </div>
+        </div>
+    </div>
+   </section>
+   <div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <textarea rows="5" placeholder="Leave your comment here..."></textarea>
+        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+    </form>
+</div>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum dolores ad eligendi error deserunt earum provident, blanditiis, veritatis fugit voluptatibus id <br> quibusdam modi porro necessitatibus illum voluptas, similique debitis laborum adipisci hic aspernatur! Asperiores, nemo pariatur tempore suscipit saepe quas.</p>
+        <p>copyrights &copy; all rights reserved. | This website is made by the officials of University of Eduford</p>
+    </section>
+
+
+    <!-- JvaScript for toggle menu -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+</body>
+</html>
