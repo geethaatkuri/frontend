@@ -29,7 +29,7 @@
 
 let marks = [55, 66, 88, 98, 55, 78];
 for (let i = 0; i < marks.length; i++) {
-  console.log(marks[i]);
+  // console.log(marks[i]);
 }
 
 
@@ -74,8 +74,61 @@ for (let i = 0; i < marks.length; i++) {
 
 
 
-
-//Looping through arrays--> for loop, for-in, for-each, for-
+//Looping through arrays--> for loop, for-in, for-each, for-of
 
 let nums = [4, 1, 2, 8, 2, 8, 6, 7];
 
+// for(let i=0; i<nums.length;i++){
+//   console.log(nums[i]);
+// }
+
+//forEach loop --> Performs operation on a existing array elements
+nums.forEach((element)=> {
+  // console.log(element*element);
+})
+
+//Array.from --> The HTML collection is converted into the array.
+let name1 = "Geetha"
+let arr = Array.from(name1)
+// console.log(arr);
+
+//for...of --> It's like a shortcut way to access array items
+for(let item of nums){
+  // console.log(item);
+}
+
+//for...in --> It is used to give keys(index position) of an array objects
+for(let i in nums){
+  // console.log(nums[i]);
+}
+
+
+
+
+//map(), filter(), reduce()
+
+
+//map() --> It creates a new array by performing some operation on each array element.
+let arr1 = [25, 09, 10]
+//console.log(arr1);
+let aa1 = arr1.map((value, index, array)=>{
+  // console.log(value, index, array);
+  // return value + 1
+  return value + index
+})
+// console.log(aa1);
+
+//filter() --> Filters an array with values that passes a test. 
+let arr2 = [25, 09, 10, 04, 02, 07]
+let aa2 = arr2.filter((A)=>{
+  return A<10
+})
+// console.log(aa2);
+
+//reduce() --> Reduces an array to a single value.
+let arr3 = [1,2,3,2,4,3,5,6]
+const reduce_func = ((p1 + p2) => {
+  return p1 + p2
+})
+let newarr = arr3.reduce(reduce_func)
+console.log(newarr);
