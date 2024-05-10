@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises in JS</title>
+</head>
+<body>
+    <h1>Promises in JS</h1>
+    <p>Promise is for "eventual" completion of task. It is an object in JS.</p>
+    It is a solution to callback hell.
+
+    <h3>Syntax for promise:</h3>
+    <p>let promise = new Promise((reslove, reject)=>{...})</p>
+    Here reslove & reject are function with 2 handlers. <br>
+    <br>
+    *reslove & reject are callbacks provided by JS.
+    <p>promises has 3 stages:</p>
+    1. Pending <br>
+    2. Fulfilled -> [resolved] <br>
+    3. Rejected
+
+    <p>A JavaScript Promise object can be:</p>
+    1. Pending - The result is undefined <br>
+    2. Resloved - The result is a value [fulfilled] <br>
+    3. Rejected - The result is an error object <br>
+    <br>
+    .then() & .catch() <br>
+    promise.then((res)=>{...}) <br>
+    promise.catch((err)=>{...}) <br>
+
+    <script src="promise.js"></script>
+</body>
+</html>
